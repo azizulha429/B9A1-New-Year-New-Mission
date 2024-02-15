@@ -13,6 +13,41 @@
   margin: 0 auto;
 }
 
+p {
+  color: rgba(8, 7, 7, 0.637);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+button {
+  border-radius: 8px;
+  background: #ff0000;
+  padding: 12px 32px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 1s;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: #630707;
+}
+
+.important {
+  color: #F00;
+}
+
+h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
 /* banner section style */
 header {
   margin: 60px 0;
@@ -78,6 +113,109 @@ header {
   font-weight: 700;
   margin-bottom: 24px;
 }
+
 .category-info img {
   width: 100%;
+}
+
+/* celebrate section */
+#celebrate {
+  margin: 60px 0;
+}
+
+.celebrate-info {
+  background-image: url('../images/Vectorrr.png');
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-radius: 8px;
+}
+
+.celebrate-text * {
+  margin-bottom: 24px;
+}
+
+.celebrate-text {
+  width: 60%;
+  max-width: 700px;
+  margin-left: 50px;
+}
+
+.celebrate-text h2 {
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+
+/* time-sec */
+#time {
+  margin: 60px 0;
+}
+
+.time-text * {
+  margin-bottom: 16px;
+}
+
+.time-text {
+  background-color: rgba(231, 102, 102, 0.233);
+  padding: 100px 250px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* coming-sec */
+#coming {
+  margin: 60px 0;
+}
+
+.coming-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.coming-text {
+  max-width: 400px;
+}
+
+.coming-text h4 {
+  color: #F00000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.coming-text h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+
+.coming-img img {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 100%;
+}
+
+.coming-info {
+  width: 370px;
+}
+
+.coming-info h2 {
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.coming-info img{
+  margin-top: 16px;
 }
